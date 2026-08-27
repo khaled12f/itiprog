@@ -1,0 +1,24 @@
+{
+  "model_name": "RandomForestRegressor",
+  "target_transform": "log1p(price)",
+  "sklearn_version": "1.8.0",
+  "metrics": {
+    "MAE": 2222695.8839188386,
+    "RMSE": 3234193.6319356444,
+    "R2": 0.8494548294955511
+  },
+  "numeric_features": [
+    "carpet_area_sqft",
+    "floor_num",
+    "bathroom",
+    "balcony",
+    "car_parking"
+  ],
+  "categorical_features": [
+    "location_grouped",
+    "Furnishing",
+    "Transaction",
+    "Ownership",
+    "facing"
+  ]
+}
